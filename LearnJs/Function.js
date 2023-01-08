@@ -18,3 +18,5 @@ const SumNumbers = (number1 , number2) => {
 const SumNum = (number1 , number2) => number1 + number2;
 // 3-3 *arrow function
 const SumNumbers1 = number1 => number1 + 100 ;
+ 
+
