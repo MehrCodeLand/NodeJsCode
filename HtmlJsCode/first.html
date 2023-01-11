@@ -15,7 +15,14 @@
         function sqrtF(number){
             alert(number * number);
         }
+
+        function confirmMsg(){
+            var userData = confirm("are you sure?");
+            if(userData == true){
+                alert("ok");
+            }
+        }
     </script>
-    <input type="button" onclick="sqrtF(5)" value="sqrt" />
+    <input type="button" onclick="confirmMsg()" value="confirm" />
 </body>
 </html>
